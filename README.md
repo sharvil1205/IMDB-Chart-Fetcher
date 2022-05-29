@@ -3,7 +3,7 @@
 Installation guide:
 1. Download or clone the repositary.
 2. Initialize node using 'npm init'
-3. Run the following command to start server using nodemon: 'npm run dev'
+3. Run the following command to start server using nodemon: 'npm run dev' or 'nodemon index.js'
 
 
 Enter the number of movies you want to see
