@@ -7,6 +7,7 @@ Installation guide:
 
 
 Enter the number of movies you want to see
+
 ![image](https://user-images.githubusercontent.com/79535235/170857589-d1ec33e2-917d-44d3-9fee-bcd9dde48a1e.png)
 
 
