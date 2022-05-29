@@ -1,0 +1,22 @@
+{
+  "name": "imdb-chart-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2"
+  }
+}
