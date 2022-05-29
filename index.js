@@ -23,17 +23,17 @@ function func(n)
 axios(URL)                                                                  
     .then(res => {
         const htmlData = res.data
-        const $ = cheerio.load(htmlData)                                                    // Loading data througn cheerio
+        const $ = cheerio.load(htmlData)                                                             // Loading data througn cheerio
         const array = []
 
         $('.titleColumn', htmlData).each((index, element) => {
-            const title = $(element).find('.titleColumn > a').text()                        // Title of the movie
-            const year = $(element).children('.secondaryInfo').text()                       // Year of release of the movie
-            const rating = $(element).parent().find('.ratingColumn > strong').text()        // Rating of the movie
-            const link = "https://www.imdb.com" + $(element).children().attr('href')        // Link of the movie
+            const title = $(element).find('.titleColumn > a').text()                                // Title of the movie
+            const year = $(element).children('.secondaryInfo').text()                               // Year of release of the movie
+            const rating = $(element).parent().find('.ratingColumn > strong').text()                // Rating of the movie
+            const link = "https://www.imdb.com" + $(element).children().attr('href')                // Link of the movie
             
             array.push
-            ({                                                                   // Adding all the variables to object array
+            ({                                                                                      // Adding all the variables to object array
                 title,
                 year,
                 rating,
@@ -45,7 +45,7 @@ axios(URL)
 
         for(let i=0; i<n; i++)
         {
-            console.log(JSON.stringify(array[i]), '\n')                           // Printing out 'n' movies after converting them to JSON string
+            console.log(JSON.stringify(array[i]), '\n')                                             // Printing out 'n' movies after converting them to JSON string
         }
 
     }).catch(err => console.error(err))
