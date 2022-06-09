@@ -19,7 +19,7 @@ Enter the number of movies you want to see:
 
 
 
-Top 'n' movies according to the IMDB rating qill be displayed:
+Top 'n' movies according to the IMDB rating will be displayed:
 
 ![image](https://user-images.githubusercontent.com/79535235/170857606-7c5c3bea-6181-48be-92cb-bce00811c1a0.png)
 
